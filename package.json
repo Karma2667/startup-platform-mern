@@ -1,0 +1,33 @@
+{
+  "name": "startup-platform-mern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "concurrently \"npm run dev --prefix server\" \"npm start --prefix client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "axios": "^1.7.8",
+    "bcrypt": "^5.1.1",
+    "bootstrap": "^5.3.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.3",
+    "react-bootstrap": "^2.10.6",
+    "react-router-dom": "^7.0.1",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0",
+    "nodemon": "^3.1.7"
+  }
+}
